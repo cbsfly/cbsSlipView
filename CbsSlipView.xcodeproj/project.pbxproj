@@ -15,6 +15,12 @@
 		C31904BE1C7C89AB00040E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31904BC1C7C89AB00040E23 /* LaunchScreen.storyboard */; };
 		C31904C91C7C89AB00040E23 /* CbsSlipViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31904C81C7C89AB00040E23 /* CbsSlipViewTests.m */; };
 		C31904D41C7C89AB00040E23 /* CbsSlipViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31904D31C7C89AB00040E23 /* CbsSlipViewUITests.m */; };
+		C31904E81C7C8A7C00040E23 /* PageLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = C31904E71C7C8A7C00040E23 /* PageLeftView.m */; };
+		C31904EE1C7C8AA400040E23 /* PageMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = C31904ED1C7C8AA400040E23 /* PageMainView.m */; };
+		C31904F11C7C8ABF00040E23 /* PageMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31904F01C7C8ABF00040E23 /* PageMainViewController.m */; };
+		C31904F41C7C8FB300040E23 /* TogetherMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31904F31C7C8FB300040E23 /* TogetherMainViewController.m */; };
+		C31904F71C7C8FC700040E23 /* TogetherLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = C31904F61C7C8FC700040E23 /* TogetherLeftView.m */; };
+		C31904FA1C7C8FE200040E23 /* TogetherMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = C31904F91C7C8FE200040E23 /* TogetherMainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		C31904CF1C7C89AB00040E23 /* CbsSlipViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CbsSlipViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31904D31C7C89AB00040E23 /* CbsSlipViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CbsSlipViewUITests.m; sourceTree = "<group>"; };
 		C31904D51C7C89AB00040E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31904E61C7C8A7C00040E23 /* PageLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageLeftView.h; sourceTree = "<group>"; };
+		C31904E71C7C8A7C00040E23 /* PageLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageLeftView.m; sourceTree = "<group>"; };
+		C31904EC1C7C8AA400040E23 /* PageMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageMainView.h; sourceTree = "<group>"; };
+		C31904ED1C7C8AA400040E23 /* PageMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageMainView.m; sourceTree = "<group>"; };
+		C31904EF1C7C8ABF00040E23 /* PageMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageMainViewController.h; sourceTree = "<group>"; };
+		C31904F01C7C8ABF00040E23 /* PageMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageMainViewController.m; sourceTree = "<group>"; };
+		C31904F21C7C8FB300040E23 /* TogetherMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TogetherMainViewController.h; sourceTree = "<group>"; };
+		C31904F31C7C8FB300040E23 /* TogetherMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TogetherMainViewController.m; sourceTree = "<group>"; };
+		C31904F51C7C8FC700040E23 /* TogetherLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TogetherLeftView.h; sourceTree = "<group>"; };
+		C31904F61C7C8FC700040E23 /* TogetherLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TogetherLeftView.m; sourceTree = "<group>"; };
+		C31904F81C7C8FE200040E23 /* TogetherMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TogetherMainView.h; sourceTree = "<group>"; };
+		C31904F91C7C8FE200040E23 /* TogetherMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TogetherMainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,8 @@
 		C31904AD1C7C89AB00040E23 /* CbsSlipView */ = {
 			isa = PBXGroup;
 			children = (
+				C31904E51C7C8A1100040E23 /* togetherview */,
+				C31904E11C7C89B200040E23 /* pageleftview */,
 				C31904B11C7C89AB00040E23 /* AppDelegate.h */,
 				C31904B21C7C89AB00040E23 /* AppDelegate.m */,
 				C31904B41C7C89AB00040E23 /* ViewController.h */,
@@ -138,6 +158,32 @@
 				C31904D51C7C89AB00040E23 /* Info.plist */,
 			);
 			path = CbsSlipViewUITests;
+			sourceTree = "<group>";
+		};
+		C31904E11C7C89B200040E23 /* pageleftview */ = {
+			isa = PBXGroup;
+			children = (
+				C31904E61C7C8A7C00040E23 /* PageLeftView.h */,
+				C31904E71C7C8A7C00040E23 /* PageLeftView.m */,
+				C31904EC1C7C8AA400040E23 /* PageMainView.h */,
+				C31904ED1C7C8AA400040E23 /* PageMainView.m */,
+				C31904EF1C7C8ABF00040E23 /* PageMainViewController.h */,
+				C31904F01C7C8ABF00040E23 /* PageMainViewController.m */,
+			);
+			path = pageleftview;
+			sourceTree = "<group>";
+		};
+		C31904E51C7C8A1100040E23 /* togetherview */ = {
+			isa = PBXGroup;
+			children = (
+				C31904F21C7C8FB300040E23 /* TogetherMainViewController.h */,
+				C31904F31C7C8FB300040E23 /* TogetherMainViewController.m */,
+				C31904F51C7C8FC700040E23 /* TogetherLeftView.h */,
+				C31904F61C7C8FC700040E23 /* TogetherLeftView.m */,
+				C31904F81C7C8FE200040E23 /* TogetherMainView.h */,
+				C31904F91C7C8FE200040E23 /* TogetherMainView.m */,
+			);
+			path = togetherview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31904E81C7C8A7C00040E23 /* PageLeftView.m in Sources */,
 				C31904B61C7C89AB00040E23 /* ViewController.m in Sources */,
+				C31904F11C7C8ABF00040E23 /* PageMainViewController.m in Sources */,
 				C31904B31C7C89AB00040E23 /* AppDelegate.m in Sources */,
+				C31904EE1C7C8AA400040E23 /* PageMainView.m in Sources */,
+				C31904F71C7C8FC700040E23 /* TogetherLeftView.m in Sources */,
 				C31904B01C7C89AB00040E23 /* main.m in Sources */,
+				C31904F41C7C8FB300040E23 /* TogetherMainViewController.m in Sources */,
+				C31904FA1C7C8FE200040E23 /* TogetherMainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "PageMainViewController.h"
+#import "TogetherMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    //分页式侧滑菜单
+//    PageMainViewController *pageVC = [[PageMainViewController alloc] init];
+//    self.window.rootViewController = pageVC;
+    
+    //整体式侧滑菜单
+    TogetherMainViewController *mainVC = [[TogetherMainViewController alloc] init];
+    self.window.rootViewController = mainVC;
+    
     return YES;
 }
 
